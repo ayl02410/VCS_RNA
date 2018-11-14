@@ -60,12 +60,8 @@
 +=======================================================+
 
 +============================================================================================================================+
-| Run the command: Replace x.xx.x or x_xx_x with your Boost version.                                                         |
+| Run the command: Replace x_xx_x with your Boost version.                                                                   |
 +----------------------------------------------------------------------------------------------------------------------------+
-MacOS:
-$ g++ -std=c++17 -I /usr/local/boost-x.xx.x/include -L /usr/local/boost-x.xx.x/lib main.cpp -o main -lboost_system -lboost_filesystem -lboost_date_time
-
-Linux:
 $ g++ -std=c++17 -I /usr/local/boost_x_xx_x/ -L /usr/lib main.cpp -o main -lboost_system -lboost_filesystem -lboost_date_time
 or
 $ g++ -std=c++17 -I /usr/local/boost_x_xx_x/ -L ./ main.cpp -o main -lboost_system -lboost_filesystem -lboost_date_time
@@ -95,9 +91,9 @@ $ g++ -std=c++17 -I [boostdir] -L /usr/lib main.cpp -o main -lboost_system -lboo
 +======================================================+
 
 +===================================================================================================================+
-| Run the command:                                                                                                  |
+| Run the command: Replace x.xx.x with your Boost version.                                                          |
 +-------------------------------------------------------------------------------------------------------------------+
-$ g++ -std=c++17 -l/usr/local/boost-1.67.0/include -L /usr/local/boost-1.67.0/lib main.cpp -o main -lboost_system -lboost_filesystem -lboost_date_time
+$ g++ -std=c++17 -l/usr/local/boost-x.xx.x/include -L /usr/local/boost-x.xx.x/lib main.cpp -o main -lboost_system -lboost_filesystem -lboost_date_time
 +===================================================================================================================+
 
 +===========================================================================+
