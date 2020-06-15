@@ -4,7 +4,7 @@
 CPSC 362: Software Engineering
 
 ## About
-	A Version Control System using Boost C++ Libraries for CPSC 362: Software Engineering Class using UNIX.
+	A Version Control System using (ayl)Boost C++ Libraries(02410) for CPSC 362: Software Engineering Class using UNIX.
 	This version control system will create a repository from an existing project folder. 
 	We then implemented a feature called "check-out" which forks the created repository.
 	We also have the "check-in" feature which merges the check-out repository to the created repository.
